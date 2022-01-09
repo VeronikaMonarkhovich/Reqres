@@ -1,7 +1,7 @@
 # Reqres
 # <img src="images/reqres.jpg" width="40" height="40">  Проект для https://reqres.in/
 
-<img src="images/reqres.in.jpg" width="800" height="600">
+<img src="images/reqres.in.jpg" width="600" height="300">
 
 ## :gear: Использованы технологии:
 |  Java  | Gradle | Junit5 | Selenide | GitHub | Jenkins | Allure Report |   Jira   | Rest-Assured|
@@ -12,7 +12,7 @@ ___
 
 ## :person_in_tuxedo: Запуск тестов происходит в CI [Jenkins](https://jenkins.autotests.cloud/job/08%20-%20Veronika_Monarkhovich%20-%208_%20Reqres/)
 
-<img src="images/jenkins.jpg" width="800" height="600">
+<img src="images/jenkins.jpg" width="600" height="300">
 
 Запуск тестов:
 ```bash
@@ -31,18 +31,18 @@ ___
 
 ## :bar_chart: Отчет генерируется в Allure
 
-<img src="images/allure1.jpg" width="800" height="600">
-<img src="images/allure2.jpg" width="800" height="600">
-<img src="images/allure3.jpg" width="800" height="600">
+<img src="images/allure1.jpg" width="600" height="300">
+<img src="images/allure2.jpg" width="600" height="300">
+<img src="images/allure3.jpg" width="600" height="300">
 
 ___
 ## <img src=https://github.com/VeronikaMonarkhovich/VeronikaMonarkhovich/blob/master/logo/Jira.png width="20" height="20"> Задача в таск-трекере Jira с данными, экспортированными из Allure TestOps
 
-<img src="images/jira.jpg" width="800" height="600"> 
+<img src="images/jira.jpg" width="600" height="300"> 
 ___
 
 ## :calling: Уведомления о прохождение тестов отправляются в Telegram
 
-<img src="images/telegram.jpg" width="600" height="800"> 
+<img src="images/telegram.jpg" width="300" height="600"> 
 
 ___
