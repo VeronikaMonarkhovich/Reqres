@@ -26,6 +26,7 @@ allure serve
 ```bash
 build/allure-results
 ```
+
 ___
 
 ## :bar_chart: Отчет генерируется в Allure
@@ -35,6 +36,13 @@ ___
 <img src="images/allure3.jpg" width="800" height="600">
 
 ___
+## <img src=https://github.com/VeronikaMonarkhovich/VeronikaMonarkhovich/blob/master/logo/Jira.png width="20" height="20"> Задача в таск-трекере Jira с данными, экспортированными из Allure TestOps
 
+<img src="images/jira.jpg" width="800" height="600"> 
+___
 
+## :calling: Уведомления о прохождение тестов отправляются в Telegram
 
+<img src="images/telegram.jpg" width="600" height="800"> 
+
+___

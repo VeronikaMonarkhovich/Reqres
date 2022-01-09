@@ -3,6 +3,7 @@ package api;
 import api.model.LombokUserData;
 import api.model.RegisterData;
 import api.model.UserWithJob;
+import io.qameta.allure.Feature;
 import io.restassured.http.ContentType;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -23,6 +24,7 @@ public class ReqresTests {
             .build();
 
     @Test
+    @Feature("REST API")
     @DisplayName("Single user")
     void singleUser() {
         LombokUserData data = given()
@@ -42,6 +44,7 @@ public class ReqresTests {
     }
 
     @Test
+    @Feature("REST API")
     @DisplayName("Register successful")
     void registerSuccessful() {
         RegisterData registerData = new RegisterData();
@@ -59,6 +62,7 @@ public class ReqresTests {
     }
 
     @Test
+    @Feature("REST API")
     @DisplayName("Register unsuccessful")
     void registerUnsuccessful() {
         RegisterData registerData = new RegisterData();
@@ -75,6 +79,7 @@ public class ReqresTests {
     }
 
     @Test
+    @Feature("REST API")
     @DisplayName("Update put")
     void updatePut() {
         given()
@@ -88,6 +93,7 @@ public class ReqresTests {
     }
 
     @Test
+    @Feature("REST API")
     @DisplayName("Update patch")
     void updatePatch() {
         given()
@@ -101,6 +107,7 @@ public class ReqresTests {
     }
 
     @Test
+    @Feature("REST API")
     @DisplayName("Check resource name")
     public void checkResourceNameGroovy() {
         given()
